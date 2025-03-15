@@ -54,6 +54,8 @@ const main = async () => {
     password: password,
   });
 
+  console.info(`using ${postedLyricsListPath} to track posted lyrics`);
+
   bot.on('error', (error) => {
     console.error(`error: ${error}`);
   });
